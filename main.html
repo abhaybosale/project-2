@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Generator</title>
+    <link rel="stylesheet" href="support.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Joke Generator</h1>
+        <p><strong>Select a level:</strong></p>
+        <div class="options">
+            <label>
+                <input type="radio" name="level" value="kid" checked>
+                Kid Level
+            </label>
+            <label>
+                <input type="radio" name="level" value="normal">
+                Normal Level
+            </label>
+            <label>
+                <input type="radio" name="level" value="dark">
+                Dark Humor
+            </label>
+        </div>
+        <button id="generateBtn">Generate Joke</button>
+        <p id="jokeOutput" class="joke"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
